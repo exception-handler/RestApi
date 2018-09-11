@@ -1,0 +1,10 @@
+// add
+/ set content-type to appliction/json or application/xml
+Post http://localhost:8082/RestProjectAPI/projservice/add
+//set Accept appliction/json
+Get http://localhost:8082/RestProjectAPI/projservice/getXml
+Get http://localhost:8082/RestProjectAPI/projservice/getJson
+Get http://localhost:8082/RestProjectAPI/projservice/getJson1/101
+delete http://localhost:8082/RestProjectAPI/projservice/remove/101
+put  http://localhost:8082/RestProjectAPI/projservice/update
+Get  http://localhost:8082/RestProjectAPI/projservice/fetch?form=0&to=2
