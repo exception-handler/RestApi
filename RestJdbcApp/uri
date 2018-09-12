@@ -1,0 +1,5 @@
+// add
+/ set content-type to appliction/json or application/xml
+Post http://localhost:8082/RestJdbcApp/service/add
+//set Accept appliction/json
+Get  http://localhost:8082/RestJdbcApp/service/getAll

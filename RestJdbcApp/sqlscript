@@ -1,0 +1,5 @@
+create table myproject(pid number primary key,name varchar2(20),duration number)
+insert into myproject values(101,'Apple',3);
+insert into myproject values(102,'NetAPP',3);
+commit;
+select * from myproject;
